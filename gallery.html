@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ForeverTogether</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">ForeverTogether</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link"
+                            >About Us</a
+                        >
+                        <div class="nav-item dropdown">
+                            <a
+                                href="#"
+                                class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown"
+                                >Pages</a
+                            >
+                            <div class="dropdown-menu m-0">
+                                <a
+                                    href="testimonials.html"
+                                    class="dropdown-item"
+                                    >Testimonials</a
+                                >
+                                <a
+                                    href="gallery.html"
+                                    class="dropdown-item active"
+                                    >Gallery</a
+                                >
+                                <a href="prices.html" class="dropdown-item"
+                                    >Prices</a
+                                >
+                            </div>
+                        </div>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Our Services</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contact</a
+                        >
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3 class="text-white display-3 mb-4">Gallery</h3>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white">Gallery</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Travel Guide Start -->
+        <div class="container-fluid guide py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h1 class="mb-0">Latest Projects</h1>
+                    <p>
+                        Discover our latest wedding projects and be inspired by
+                        the breathtaking moments we have created for our
+                        couples. Each wedding is unique and reflects the
+                        individual stories and styles of the brides and grooms.
+                        In this collection, we showcase a selection of our
+                        recent work, ranging from creative concepts to emotional
+                        ceremonies. Let yourself be inspired by the ideas and
+                        diversity that we bring to each planning!
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/explore-tour-13.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Elegant Country Wedding"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">
+                                        Elegant Country Wedding
+                                    </h4>
+                                    <p class="mb-0">
+                                        In the midst of picturesque fields, the
+                                        wedding of Anna and Markus took place.
+                                        The celebration combined rustic charm
+                                        with elegant sophistication. The
+                                        carefully designed decorations with
+                                        local flowers and handcrafted details
+                                        gave the ceremony a personal touch.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/explore-tour-14.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Romantic Beach Ceremony"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">
+                                        Romantic Beach Ceremony
+                                    </h4>
+                                    <p class="mb-0">
+                                        Sophie and David dreamed of a wedding by
+                                        the sea. With a stunning view of the
+                                        sunset, they celebrated a romantic
+                                        ceremony surrounded by their closest
+                                        friends and family. The maritime
+                                        decoration and soft colors reflected the
+                                        beach's atmosphere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/explore-tour-15.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Glamorous City Wedding"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Glamorous City Wedding</h4>
+                                    <p class="mb-0">
+                                        Julia and Max opted for a stylish
+                                        wedding in an elegant city hotel. With
+                                        opulent floral arrangements and a
+                                        glamorous reception, the night became an
+                                        unforgettable experience. Every detail,
+                                        from the invitations to the table
+                                        decorations, was planned with great
+                                        attention to detail.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/explore-tour-16.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Intimate Garden Party"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Intimate Garden Party</h4>
+                                    <p class="mb-0">
+                                        For Lara and Felix, an intimate
+                                        celebration in the garden was the
+                                        perfect way to celebrate their love.
+                                        With romantic lights and personal
+                                        elements, we created a cozy and inviting
+                                        atmosphere that reflected the love and
+                                        connection of the couple.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/explore-tour-17.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Intimate Garden Party"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">
+                                        Enchanted Garden Wedding
+                                    </h4>
+                                    <p class="mb-0">
+                                        This breathtaking celebration took place
+                                        in a stunning garden venue, where nature
+                                        provided the perfect backdrop. The
+                                        couple envisioned a whimsical
+                                        atmosphere, and our team brought that
+                                        vision to life with vibrant floral
+                                        arrangements, twinkling fairy lights,
+                                        and elegant decor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/explore-tour-18.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Intimate Garden Party"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Elegant Coastal Affair</h4>
+                                    <p class="mb-0">
+                                        Set against the serene backdrop of a
+                                        picturesque coastline, this wedding
+                                        embraced a sophisticated yet relaxed
+                                        vibe. Our team worked closely with the
+                                        couple to blend their love for the ocean
+                                        with timeless elegance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Travel Guide End -->
+
+        <!-- Explore Tour Start -->
+        <div class="container-fluid ExploreTour py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">Our Gallery</h5>
+                    <h1 class="mb-4">Inspiration for Your Dream Wedding</h1>
+                    <p>
+                        Welcome to our gallery, where we showcase the most
+                        beautiful moments and unique celebrations we have
+                        planned. Here, you will find a selection of stunning
+                        images that highlight the diversity and creativity of
+                        our weddings. Each picture tells a story of love, joy,
+                        and unforgettable moments we have shared with our
+                        couples. Get inspired and discover how we can bring your
+                        vision to life!
+                    </p>
+                </div>
+                <div class="tab-class text-center">
+                    <div class="tab-content">
+                        <div
+                            id="NationalTab-1"
+                            class="tab-pane fade show p-0 active"
+                        >
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-7.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Romantic Ceremonies
+                                                </h5>
+                                                <p class="text-white">
+                                                    Experience the magic of
+                                                    romantic wedding ceremonies
+                                                    set in picturesque
+                                                    locations. Whether outdoors
+                                                    or in an elegant venue, each
+                                                    ceremony is uniquely crafted
+                                                    to celebrate the special
+                                                    moment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-8.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Creative Decorations
+                                                </h5>
+                                                <p class="text-white">
+                                                    Discover our creative
+                                                    decoration ideas that
+                                                    reflect each couple's
+                                                    personality. From stylish
+                                                    floral arrangements to
+                                                    lovingly designed table
+                                                    decorations, we bring your
+                                                    vision to life.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-9.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Unforgettable Celebrations
+                                                </h5>
+                                                <p class="text-white">
+                                                    Our gallery showcases
+                                                    unforgettable wedding
+                                                    celebrations filled with joy
+                                                    and emotion. Look at the
+                                                    happy faces of the guests
+                                                    and the magical moments that
+                                                    make each wedding a special
+                                                    experience.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-10.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Loving Details
+                                                </h5>
+                                                <p class="text-white">
+                                                    The love for detail makes
+                                                    each wedding unique. In this
+                                                    collection, you will find
+                                                    impressive details that
+                                                    enrich the overall
+                                                    experience, from
+                                                    personalized elements to
+                                                    special surprises for the
+                                                    guests.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            id="InternationalTab-2"
+                            class="tab-pane fade show p-0"
+                        >
+                            <div
+                                class="InternationalTour-carousel owl-carousel"
+                            >
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-1.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Australia
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                            >
+                                                <i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                8 Cities
+                                            </a>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                            >
+                                                <i class="fa fa-eye ms-2"></i>
+                                                <span>143+ Tour Places</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tour-offer bg-success">
+                                        30% Off
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto">
+                                            <i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-2.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Germany
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                            >
+                                                <i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                12 Cities
+                                            </a>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                            >
+                                                <i class="fa fa-eye ms-2"></i>
+                                                <span>21+ Tour Places</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto">
+                                            <i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-3.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="tour-offer bg-warning">
+                                            45% Off
+                                        </div>
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Spain
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                            >
+                                                <i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                9 Cities
+                                            </a>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                            >
+                                                <i class="fa fa-eye ms-2"></i>
+                                                <span>133+ Tour Places</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto">
+                                            <i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-4.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Japan
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                            >
+                                                <i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                8 Cities
+                                            </a>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                            >
+                                                <i class="fa fa-eye ms-2"></i>
+                                                <span>137+ Tour Places</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto">
+                                            <i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-5.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="tour-offer bg-info">
+                                            70% Off
+                                        </div>
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                London
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                            >
+                                                <i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                17 Cities
+                                            </a>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                            >
+                                                <i class="fa fa-eye ms-2"></i>
+                                                <span>26+ Tour Places</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto">
+                                            <i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Explore Tour Start -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">ForeverTogether</h4>
+                            <p class="text-white">
+                                Do you have any questions or need help with
+                                planning your wedding? Don't hesitate to contact
+                                us! Our team is always available to discuss your
+                                wishes and support you every step of the way.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Get in Touch</h4>
+                            <a href="">
+                                <i class="fas fa-home me-2"></i>
+                                Wheatsheaf Hill Farm, Plantation Rd, Edgworth,
+                                Bolton BL7 0BY, UK
+                            </a>
+                            <a href="">
+                                <i class="fas fa-envelope me-2"></i>
+                                forever_together@gmail.com
+                            </a>
+                            <a href="">
+                                <i class="fas fa-phone me-2"></i>
+                                +441204852113
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Support</h4>
+
+                            <a href="index.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Home
+                            </a>
+                            <a href="about.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                About Us
+                            </a>
+                            <a href="privacy-policy.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Privacy Policy
+                            </a>
+                            <a href="terms-of-use.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Terms of Use
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a better and
+                    more relevant browsing experience.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

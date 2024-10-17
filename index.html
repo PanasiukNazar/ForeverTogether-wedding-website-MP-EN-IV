@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ForeverTogether</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">ForeverTogether</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Home</a
+                        >
+                        <a href="about.html" class="nav-item nav-link"
+                            >About Us</a
+                        >
+                        <div class="nav-item dropdown">
+                            <a
+                                href="#"
+                                class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                                >Pages</a
+                            >
+                            <div class="dropdown-menu m-0">
+                                <a
+                                    href="testimonials.html"
+                                    class="dropdown-item"
+                                    >Testimonials</a
+                                >
+                                <a href="gallery.html" class="dropdown-item"
+                                    >Gallery</a
+                                >
+                                <a href="prices.html" class="dropdown-item"
+                                    >Prices</a
+                                >
+                            </div>
+                        </div>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Our Services</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contact</a
+                        >
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div
+                    id="carouselId"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="img/carousel-2.jpg"
+                                class="img-fluid"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px">
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        A custom-designed wedding that makes
+                                        every moment unforgettable
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4"
+                                    >
+                                        Your Dream Wedding
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Perfect planning in every detail. We
+                                        take care of everything, from the venue
+                                        to the smallest decoration. Trust us to
+                                        make your big day smooth and
+                                        unforgettable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="img/carousel-1.jpg"
+                                class="img-fluid"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px">
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        From creative planning to flawless
+                                        execution – for weddings that captivate
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4"
+                                    >
+                                        Unforgettable Moments
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Unique wedding concepts. Every wedding
+                                        is one of a kind. We create personalized
+                                        concepts that reflect your personality
+                                        and love. Let us turn your dreams into
+                                        reality.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="img/carousel-3.jpg"
+                                class="img-fluid"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px">
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Comprehensive service – from first ideas
+                                        to the last dance of your unforgettable
+                                        day
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4"
+                                    >
+                                        All-Inclusive Package
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Everything taken care of. From the
+                                        initial idea to the last minute of your
+                                        big day – our complete service ensures a
+                                        stress-free and perfect wedding.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon btn bg-primary"
+                            aria-hidden="false"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon btn bg-primary"
+                            aria-hidden="false"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Explore Tour Start -->
+        <div class="container-fluid ExploreTour py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">Our Services</h5>
+                    <h1 class="mb-4">Perfectly Executed Wedding Dreams</h1>
+                    <p class="mb-0">
+                        Whether an intimate celebration or a large event – we
+                        will accompany you from the planning to the execution of
+                        your special day. Our team ensures that every moment of
+                        your wedding is perfectly organized so you can focus on
+                        what truly matters: your love.
+                    </p>
+                </div>
+                <div class="tab-class text-center">
+                    <ul
+                        class="nav nav-pills d-inline-flex justify-content-center mb-5"
+                    ></ul>
+                    <div class="tab-content">
+                        <div
+                            id="NationalTab-1"
+                            class="tab-pane fade show p-0 active"
+                        >
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-1.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Complete Planning
+                                                </h5>
+                                                <p class="text-white">
+                                                    We take care of the entire
+                                                    organization of your
+                                                    wedding, from the initial
+                                                    idea to the final moment of
+                                                    the celebration. Our team
+                                                    handles the venue, vendors,
+                                                    timeline, and all other
+                                                    details so you can enjoy
+                                                    stress-free planning.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-2.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Partial Planning
+                                                </h5>
+                                                <p class="text-white">
+                                                    You've already organized
+                                                    some elements, but need
+                                                    support in certain areas? We
+                                                    can help you perfect the
+                                                    missing parts, whether it's
+                                                    the venue, decor, or
+                                                    entertainment program.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-3.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Design & Decoration
+                                                </h5>
+                                                <p class="text-white">
+                                                    Let us inspire you. We
+                                                    create unique design
+                                                    concepts that reflect your
+                                                    personality and style. From
+                                                    floral arrangements to table
+                                                    decorations – we create a
+                                                    dreamy atmosphere.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="national-item">
+                                        <img
+                                            style="
+                                                height: 400px;
+                                                object-fit: cover;
+                                            "
+                                            src="img/explore-tour-4.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Day Coordination
+                                                </h5>
+                                                <p class="text-white">
+                                                    Relax on your big day and
+                                                    let us manage everything in
+                                                    the background. We ensure
+                                                    that everything runs
+                                                    smoothly – from guest
+                                                    arrivals to the final dance
+                                                    – so you can fully enjoy
+                                                    every moment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            id="InternationalTab-2"
+                            class="tab-pane fade show p-0"
+                        >
+                            <div
+                                class="InternationalTour-carousel owl-carousel"
+                            >
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-1.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Australia
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                8 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>143+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="tour-offer bg-success">
+                                        30% Off
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-2.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Germany
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                12 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>21+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-3.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="tour-offer bg-warning">
+                                            45% Off
+                                        </div>
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Spain
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                9 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>133+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-4.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Japan
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                8 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>137+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-5.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="tour-offer bg-info">
+                                            70% Off
+                                        </div>
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                London
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                17 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>26+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Explore Tour Start -->
+
+        <!-- Services Start -->
+        <div class="container-fluid bg-light service py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">Our Special Offers</h5>
+                    <h1 class="mb-0">
+                        Exclusive Packages for Your Dream Wedding
+                    </h1>
+                    <p>
+                        Save on planning your wedding without compromising on
+                        quality. Discover our special offers tailored perfectly
+                        to your needs. Whether it’s small extras or significant
+                        discounts—we provide the best for your special day.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-sm-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border-primary p-4 ps-4"
+                            >
+                                <div class="service-content">
+                                    <h5 class="mb-4">
+                                        Last-Minute Wedding Package
+                                    </h5>
+                                    <p class="mb-0">
+                                        Short on time? Our Last-Minute Package
+                                        offers quick yet exclusive solutions to
+                                        organize your wedding in the shortest
+                                        possible time. Perfect for spontaneous
+                                        couples who do not want to compromise on
+                                        quality.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border-primary p-4 ps-4"
+                            >
+                                <div class="service-content">
+                                    <h5 class="mb-4">Early Bird Discount</h5>
+                                    <p class="mb-0">
+                                        Planning ahead? With our Early Bird
+                                        offer, you can secure attractive
+                                        discounts if you book your wedding at
+                                        least one year in advance. Perfect for
+                                        couples who plan meticulously and
+                                        budget-conscious.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border-primary p-4 ps-4"
+                            >
+                                <div class="service-content">
+                                    <h5 class="mb-4">Winter Wedding Special</h5>
+                                    <p class="mb-0">
+                                        Planning a winter wedding? Our Winter
+                                        Wedding Packages offer special rates for
+                                        weddings from November to February.
+                                        Enjoy the magic of a winter wedding with
+                                        exclusive discounts on venues,
+                                        decorations, and more.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border-primary p-4 ps-4"
+                            >
+                                <div class="service-content">
+                                    <h5 class="mb-4">All-Inclusive Upgrade</h5>
+                                    <p class="mb-0">
+                                        Book our All-Inclusive Package and enjoy
+                                        complimentary services like a welcome
+                                        drink for your guests, an upgrade in
+                                        decoration, or a free trial session with
+                                        your wedding photographer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services End -->
+
+        <!-- Tour Booking Start -->
+        <div class="container-fluid booking py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12">
+                        <h1 class="text-white mb-4">
+                            We Make Your Most Beautiful Day Unforgettable
+                        </h1>
+
+                        <p class="text-white mb-4">
+                            Planning a wedding is one of the most exciting yet
+                            challenging times in a couple's life. From choosing
+                            the perfect venue to designing the décor and
+                            coordinating all the service providers—there are so
+                            many details to consider to make the day seamless
+                            and unforgettable. This is where we come in. Our
+                            goal is to turn your vision into reality and ease
+                            your load throughout the entire planning process.
+                            Every couple has unique ideas and wishes, and we
+                            take the time to understand them through personal
+                            consultations. Whether you dream of an intimate
+                            outdoor ceremony or a grand, glamorous celebration,
+                            we will make your individual dream wedding a
+                            reality. A smooth process starts with our first
+                            consultation. We listen, ask the right questions,
+                            and work with you to develop a concept that reflects
+                            your personality and love. Our team then takes care
+                            of the entire organization: from selecting the best
+                            service providers to meticulously planning the
+                            schedule, ensuring that nothing is left to chance on
+                            your wedding day. Naturally, we keep your budget in
+                            mind and ensure that no unforeseen costs arise. What
+                            matters most to us is that you can fully enjoy the
+                            day. With our professional support, you can focus on
+                            what truly matters—your love and the special moments
+                            with your guests. We make sure you have no
+                            organizational worries and can experience the best
+                            day of your life in peace. Let us handle the work
+                            behind the scenes so that you and your guests can
+                            enjoy a perfectly organized, stress-free, and
+                            unforgettable wedding. Trust in our experience and
+                            passion for weddings—we will make your dreams come
+                            true.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tour Booking End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">ForeverTogether</h4>
+                            <p class="text-white">
+                                Do you have any questions or need help with
+                                planning your wedding? Don't hesitate to contact
+                                us! Our team is always available to discuss your
+                                wishes and support you every step of the way.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Get in Touch</h4>
+                            <a href="">
+                                <i class="fas fa-home me-2"></i>
+                                Wheatsheaf Hill Farm, Plantation Rd, Edgworth,
+                                Bolton BL7 0BY, UK
+                            </a>
+                            <a href="">
+                                <i class="fas fa-envelope me-2"></i>
+                                forever_together@gmail.com
+                            </a>
+                            <a href="">
+                                <i class="fas fa-phone me-2"></i>
+                                +441204852113
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Support</h4>
+
+                            <a href="index.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Home
+                            </a>
+                            <a href="about.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                About Us
+                            </a>
+                            <a href="privacy-policy.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Privacy Policy
+                            </a>
+                            <a href="terms-of-use.html">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Terms of Use
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a better and
+                    more relevant browsing experience.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
